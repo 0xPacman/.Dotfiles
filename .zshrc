@@ -1,3 +1,8 @@
+#||                      ||#
+#||  Zsh configurations  ||#
+#||                      ||#
+#||  Author: Ahmed0x7ce  ||#
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -7,8 +12,15 @@ export ZSH="/home/ahmed0x7ce/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#===========================================================~
+#                                               Themes      ~
+#===========================================================~
 ZSH_THEME="gnzh"
+# ZSH_THEME="agnoster"
+# ZSH_THEME="steeef"
+# ZSH_THEME="mortalscumbag"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,9 +80,14 @@ ZSH_THEME="gnzh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-plugins=(zsh-autosuggestions)
+#===========================================================~
+#						Plugins     ~
+#===========================================================~
+plugins=(git command-not-found sudo web-search colored-man-pages colorize)
 
+#===========================================================~
+#                                               Source      ~
+#===========================================================~
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -96,29 +113,52 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
-
-eval $(thefuck --alias)
-
-# Alias list
+#===========================================================~
+#                                               Alieses     ~
+#===========================================================~
 alias e='exit'
 alias sr="snap run $1"
+alias zshconfig="emacs ~/.zshrc"
+alias clock="tty-clock -BSstcC 6"
+alias zf="z -I ."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 
+#===========================================================~
+#                                               Export      ~
+#===========================================================~
+export PATH=/home/ahmed0x7ce/rakudo/install/bin/:/home/ahmed0x7ce/rakudo/install/share/perl6/site/bin:$PATH
+
+#===========================================================~
+#                                               Eval        ~
+#===========================================================~
+eval "$(lua ~/Downloads/z.lua-1.7.3/z.lua --init zsh)"
+
+#===========================================================~
+#                                               Functions   ~
+#===========================================================~
 # Use lf to switch directories and bind it to ctrl-o
-lfcd () {
+lfcd ()
+{
     tmp="$(mktemp)"
     lf -last-dir-path="$tmp" "$@"
     if [ -f "$tmp" ]; then
-	dir="$(cat "$tmp")"
-	rm -f "$tmp"
-	[ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+        dir="$(cat "$tmp")"
+        rm -f "$tmp"
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
 bindkey -s '^o' 'lfcd\n'
 
-#Source zone
-source /home/ahmed0x7ce/Downloads/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Combine mkdir and cd
+mkcd ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
+
+
+
