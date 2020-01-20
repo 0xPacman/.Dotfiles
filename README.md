@@ -9,5 +9,6 @@
 * I3wm
 * Zsh
 * URxvt
+* Tree
 * Font Awesome
 * Compton
