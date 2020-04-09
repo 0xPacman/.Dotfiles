@@ -22,7 +22,13 @@ ZSH_THEME="gnzh"
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 #						                        Plugins     ~
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
-plugins=(git command-not-found sudo web-search colored-man-pages colorize)
+plugins=(
+            git 
+            command-not-found 
+            sudo web-search 
+            colored-man-pages 
+            colorize
+		)
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 #                                               Source      ~
