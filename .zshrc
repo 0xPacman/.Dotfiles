@@ -20,7 +20,7 @@ ZSH_THEME="gnzh"
 # ZSH_THEME="mortalscumbag"
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
-#						                        Plugins     ~
+#                                               Plugins     ~
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 plugins=(
             git 
@@ -61,6 +61,7 @@ alias yt360="youtube-dl -f \"best[height<=360]\""
 alias yt480="youtube-dl -f \"best[height<=480]\""
 alias yt720="youtube-dl -f \"best[height<=720]\""
 alias yt1080="youtube-dl -f \"best[height<=1080]\""
+alias unlockpac="sudo rm /var/lib/pacman/db.lck"
 
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
