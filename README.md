@@ -2,7 +2,7 @@
 
 .dotfiles, my collection of configuration and customization.
 
-## Prerequisites
+## Prerequisites and tools
 * [GNU](https://en.wikipedia.org/wiki/GNU)/[Linux](https://en.wikipedia.org/wiki/Linux), [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
 * [Rofi](https://github.com/davatorium/rofi)
 * [Emacs](https://www.gnu.org/software/emacs/)
@@ -11,4 +11,5 @@
 * [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode)
 * [Font Awesome](https://fontawesome.com/)
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+* [fzf](https://github.com/junegunn/fzf)
 * [Compton](https://github.com/chjj/compton)
