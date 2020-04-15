@@ -11,5 +11,5 @@
 * [URxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode)
 * [Font Awesome](https://fontawesome.com/)
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-* [fzf](https://github.com/junegunn/fzf)
+* [Fzf](https://github.com/junegunn/fzf)
 * [Compton](https://github.com/chjj/compton)
