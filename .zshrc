@@ -67,13 +67,12 @@ alias unlockpac="sudo rm /var/lib/pacman/db.lck"
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 #                                               Export      ~
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
-export PATH=/home/ahmed0x7ce/rakudo/install/bin/:/home/ahmed0x7ce/rakudo/install/share/perl6/site/bin:$PATH
 
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 #                                               Eval        ~
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
-eval "$(lua ~/Downloads/z.lua-1.7.3/z.lua --init zsh)"
+eval "$(lua ~/z.lua/z.lua --init zsh)"
 
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
