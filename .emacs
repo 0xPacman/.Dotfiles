@@ -1,4 +1,4 @@
-
+#||          emacs conf            ||#
 (package-initialize)
 
 (custom-set-variables
