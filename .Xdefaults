@@ -2,7 +2,6 @@
 *foreground_bold: #d8d8d8
 *cursor: #a8a19f
 *background:       #222D31
-!!*background: rgba(0, 0, 0, .7)
 
 !! black dark/light
 *color0:                          #222D31
