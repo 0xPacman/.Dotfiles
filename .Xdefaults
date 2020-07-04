@@ -42,12 +42,6 @@ URxvt.font:				xft:hack:size=11
 URxvt.scrollBar:			false
 URxvt.cursorColor:			white
 
-!!!! blur testing
-
-!URxvt.blurRadius: 5
-!failed!
-!!!! end test
-
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
 URxvt.colorUL:			#4682B4
