@@ -66,7 +66,7 @@ alias unlockpac="sudo rm /var/lib/pacman/db.lck"
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~                                                                                          
 #                               Alieses for Raspberry Pi    ~                                                                                          
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~                                                                                          
-alias mtemp = "vcgencmd measure_temp"   
+alias mtemp="vcgencmd measure_temp"   
 
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
