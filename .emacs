@@ -1,4 +1,3 @@
-
 (package-initialize)
 
 (custom-set-variables
