@@ -43,6 +43,7 @@ source $ZSH/oh-my-zsh.sh
 alias e='exit'
 alias sr="snap run $1"
 alias yaya="yay -a -S $1"
+alias yao="yaourt -S $1"
 alias zshconfig="emacs ~/.zshrc"
 alias clock="tty-clock -BSstcC 6"
 alias zf="z -I ."
