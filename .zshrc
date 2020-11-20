@@ -64,6 +64,7 @@ alias yt720="youtube-dl -f \"best[height<=720]\""
 alias yt1080="youtube-dl -f \"best[height<=1080]\""
 alias unlockpac="sudo rm /var/lib/pacman/db.lck"
 alias openit="xdg-open $1"
+alias termbin="nc termbin.com 9999"
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~                                                                                          
 #                               Alieses for Raspberry Pi    ~                                                                                          
