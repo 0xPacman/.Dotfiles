@@ -11,4 +11,8 @@
      ("melpa" . "https://stable.melpa.org/packages/"))))
  '(package-selected-packages (quote (cyberpunk-theme))))
 (custom-set-faces)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq c-set-style "k&r")
+(setq c-basic-offset 4)
 
