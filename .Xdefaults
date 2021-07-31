@@ -60,7 +60,6 @@ URxvt.matcher.button:	1
 
 !ROFI
 
-
 rofi.lines: 4
 rofi.font: Ubuntu 28
 rofi.padding: 100
