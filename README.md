@@ -13,3 +13,4 @@
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 * [Fzf](https://github.com/junegunn/fzf)
 * [Compton](https://github.com/chjj/compton)
+* [Polybar] (https://polybar.github.io)
