@@ -12,5 +12,7 @@
 * [Font Awesome](https://fontawesome.com/)
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 * [Fzf](https://github.com/junegunn/fzf)
+* [Ranger](https://ranger.github.io/)
 * [Compton](https://github.com/chjj/compton)
 * [Polybar](https://polybar.github.io)
+
