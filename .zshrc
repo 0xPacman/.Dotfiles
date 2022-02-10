@@ -8,7 +8,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/$USER/.oh-my-zsh"
-
+## For 1337 season 
+# export ZSH="/Users/$USER/.oh-my-zsh"
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 #                                               Themes      ~
