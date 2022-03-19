@@ -65,6 +65,7 @@ alias yt1080="youtube-dl -f \"best[height<=1080]\""
 alias unlockpac="sudo rm /var/lib/pacman/db.lck"
 alias openit="xdg-open $1"
 alias termbin="nc termbin.com 9999"
+alias gitscript="sh -c \"\$(curl -fsSL https://raw.githubusercontent.com/0xPacman/GITscript/main/gitscript.sh)\""
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~                                                                                          
 #                               Alieses for Raspberry Pi    ~                                                                                          
@@ -102,4 +103,15 @@ mkcd ()
 }
 
 
+#█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
+#                                              MacOS config ~
+#█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
+# toggle mac os dark mode
 
+osascript <<EOF
+  tell application "System Events"
+    tell appearance preferences
+      set dark mode to true
+  end tell
+  end tell
+EOF
