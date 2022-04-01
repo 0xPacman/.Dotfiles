@@ -67,6 +67,7 @@ alias unlockpac="sudo rm /var/lib/pacman/db.lck"
 alias openit="xdg-open $1"
 alias termbin="nc termbin.com 9999"
 alias gitscript="sh -c \"\$(curl -fsSL https://raw.githubusercontent.com/0xPacman/GITscript/main/gitscript.sh)\""
+alias cdownload="curl -C - -L -O $1"
 
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~                                                                                          
 #                               Alieses for Raspberry Pi    ~                                                                                          
