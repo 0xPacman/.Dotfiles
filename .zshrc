@@ -108,10 +108,12 @@ mkcd ()
 #█▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░~
 # toggle mac os dark mode
 
-osascript <<EOF
+if [[ "$(uname -s)" == "Darwin" ]]; then
+  osascript <<EOF
   tell application "System Events"
-    tell appearance preferences
-      set dark mode to true
-  end tell
+      tell appearance preferences
+          set dark mode to true
+      end tell
   end tell
 EOF
+fi
